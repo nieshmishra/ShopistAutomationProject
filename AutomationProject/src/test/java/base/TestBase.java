@@ -10,8 +10,8 @@ public class TestBase {
 
     public TestBase() {
         if (driver == null) {
-            System.setProperty("webdriver.edge.driver", "src/test/resources/msedgedriver.exe");
-            driver = new EdgeDriver();
+            System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
+            driver = new ChromeDriver();
             driver.get("https://shopist.io");
             driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
             driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
