@@ -20,11 +20,11 @@ Step 1:- Go to TestRunner.java File
 
 Step 2:- Right click and Select Testng from the option
 
-# Reporting
+## Reporting
 
 As of now no reporting has been configured but Testng has bydefault test-output folder and basic Passed and Failed testcases can be seen.
 
-# Common Errors
+## Common Errors
 
 Maven dependency not downloading To fix this Click on Project and In Maven option click on build.
 
